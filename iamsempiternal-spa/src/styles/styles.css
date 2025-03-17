@@ -1,0 +1,541 @@
+/* ==========================================================================
+   Palette & Global Color Variables
+   ========================================================================== */
+.brz .brz-cp-color1,
+.brz .brz-bcp-color1 {
+    color: rgb(var(--brz-global-color1));
+}
+.brz .brz-bgp-color1 {
+    background-color: rgb(var(--brz-global-color1));
+}
+
+.brz .brz-cp-color2,
+.brz .brz-bcp-color2 {
+    color: rgb(var(--brz-global-color2));
+}
+.brz .brz-bgp-color2 {
+    background-color: rgb(var(--brz-global-color2));
+}
+
+.brz .brz-cp-color3,
+.brz .brz-bcp-color3 {
+    color: rgb(var(--brz-global-color3));
+}
+.brz .brz-bgp-color3 {
+    background-color: rgb(var(--brz-global-color3));
+}
+
+.brz .brz-cp-color4,
+.brz .brz-bcp-color4 {
+    color: rgb(var(--brz-global-color4));
+}
+.brz .brz-bgp-color4 {
+    background-color: rgb(var(--brz-global-color4));
+}
+
+.brz .brz-cp-color5,
+.brz .brz-bcp-color5 {
+    color: rgb(var(--brz-global-color5));
+}
+.brz .brz-bgp-color5 {
+    background-color: rgb(var(--brz-global-color5));
+}
+
+.brz .brz-cp-color6,
+.brz .brz-bcp-color6 {
+    color: rgb(var(--brz-global-color6));
+}
+.brz .brz-bgp-color6 {
+    background-color: rgb(var(--brz-global-color6));
+}
+
+.brz .brz-cp-color7,
+.brz .brz-bcp-color7 {
+    color: rgb(var(--brz-global-color7));
+}
+.brz .brz-bgp-color7 {
+    background-color: rgb(var(--brz-global-color7));
+}
+
+.brz .brz-cp-color8,
+.brz .brz-bcp-color8 {
+    color: rgb(var(--brz-global-color8));
+}
+.brz .brz-bgp-color8 {
+    background-color: rgb(var(--brz-global-color8));
+}
+
+/* Global CSS Variables */
+:root {
+    --brz-global-color1: 18,17,16;
+    --brz-global-color2: 18,17,16;
+    --brz-global-color3: 251,143,44;
+    --brz-global-color4: 85,206,94;
+    --brz-global-color5: 35,35,32;
+    --brz-global-color6: 244,242,240;
+    --brz-global-color7: 85,80,76;
+    --brz-global-color8: 255,255,255;
+}
+
+/* ==========================================================================
+   Typography & Font Variables
+   ========================================================================== */
+:root {
+    /* Paragraph Variables */
+    --brz-paragraphfontfamily: "Inter", sans-serif;
+    --brz-paragraphfontsize: 18px;
+    --brz-paragraphfontsizesuffix: px;
+    --brz-paragraphfontweight: 400;
+    --brz-paragraphletterspacing: 0px;
+    --brz-paragraphlineheight: 1.7;
+    --brz-paragraphfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-paragraphtabletfontsize: 17px;
+    --brz-paragraphtabletfontweight: 400;
+    --brz-paragraphtabletletterspacing: 0px;
+    --brz-paragraphtabletlineheight: 1.6;
+    --brz-paragraphtabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-paragraphmobilefontsize: 16px;
+    --brz-paragraphmobilefontweight: 400;
+    --brz-paragraphmobileletterspacing: 0px;
+    --brz-paragraphmobilelineheight: 1.5;
+    --brz-paragraphmobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-paragraphstoryfontsize: 4.14%;
+    --brz-paragraphbold: 400;
+    --brz-paragraphitalic: inherit;
+    --brz-paragraphtextdecoration: inherit;
+    --brz-paragraphtexttransform: inherit;
+    --brz-paragraphtabletbold: 400;
+    --brz-paragraphtabletitalic: inherit;
+    --brz-paragraphtablettextdecoration: inherit;
+    --brz-paragraphtablettexttransform: inherit;
+    --brz-paragraphmobilebold: 400;
+    --brz-paragraphmobileitalic: inherit;
+    --brz-paragraphmobiletextdecoration: inherit;
+    --brz-paragraphmobiletexttransform: inherit;
+
+    /* Subtitle Variables */
+    --brz-subtitlefontfamily: "Inter", sans-serif;
+    --brz-subtitlefontsize: 14px;
+    --brz-subtitlefontsizesuffix: px;
+    --brz-subtitlefontweight: 400;
+    --brz-subtitleletterspacing: 0px;
+    --brz-subtitlelineheight: 1.6;
+    --brz-subtitlefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-subtitletabletfontsize: 14px;
+    --brz-subtitletabletfontweight: 400;
+    --brz-subtitletabletletterspacing: 0px;
+    --brz-subtitletabletlineheight: 1.6;
+    --brz-subtitletabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-subtitlemobilefontsize: 14px;
+    --brz-subtitlemobilefontweight: 400;
+    --brz-subtitlemobileletterspacing: 0px;
+    --brz-subtitlemobilelineheight: 1.6;
+    --brz-subtitlemobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-subtitlestoryfontsize: 3.22%;
+    --brz-subtitlebold: 400;
+    --brz-subtitleitalic: inherit;
+    --brz-subtitletextdecoration: inherit;
+    --brz-subtitletexttransform: inherit;
+    --brz-subtitletabletbold: 400;
+    --brz-subtitletabletitalic: inherit;
+    --brz-subtitletablettextdecoration: inherit;
+    --brz-subtitletablettexttransform: inherit;
+    --brz-subtitlemobilebold: 400;
+    --brz-subtitlemobileitalic: inherit;
+    --brz-subtitlemobiletextdecoration: inherit;
+    --brz-subtitlemobiletexttransform: inherit;
+
+    /* Above-title Variables */
+    --brz-abovetitlefontfamily: "Inter", sans-serif;
+    --brz-abovetitlefontsize: 15px;
+    --brz-abovetitlefontsizesuffix: px;
+    --brz-abovetitlefontweight: 500;
+    --brz-abovetitleletterspacing: 0px;
+    --brz-abovetitlelineheight: 1.4;
+    --brz-abovetitlefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-abovetitletabletfontsize: 15px;
+    --brz-abovetitletabletfontweight: 500;
+    --brz-abovetitletabletletterspacing: 0px;
+    --brz-abovetitletabletlineheight: 1.4;
+    --brz-abovetitletabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-abovetitlemobilefontsize: 15px;
+    --brz-abovetitlemobilefontweight: 500;
+    --brz-abovetitlemobileletterspacing: 0px;
+    --brz-abovetitlemobilelineheight: 1.4;
+    --brz-abovetitlemobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-abovetitlestoryfontsize: 3.45%;
+    --brz-abovetitlebold: 500;
+    --brz-abovetitleitalic: inherit;
+    --brz-abovetitletextdecoration: inherit;
+    --brz-abovetitletexttransform: inherit;
+    --brz-abovetitletabletbold: 500;
+    --brz-abovetitletabletitalic: inherit;
+    --brz-abovetitletablettextdecoration: inherit;
+    --brz-abovetitletablettexttransform: inherit;
+    --brz-abovetitlemobilebold: 500;
+    --brz-abovetitlemobileitalic: inherit;
+    --brz-abovetitlemobiletextdecoration: inherit;
+    --brz-abovetitlemobiletexttransform: inherit;
+
+    /* Heading 1 Variables */
+    --brz-heading1fontfamily: "Inter", sans-serif;
+    --brz-heading1fontsize: 64px;
+    --brz-heading1fontsizesuffix: px;
+    --brz-heading1fontweight: 700;
+    --brz-heading1letterspacing: 0px;
+    --brz-heading1lineheight: 1.3;
+    --brz-heading1fontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading1tabletfontsize: 38px;
+    --brz-heading1tabletfontweight: 700;
+    --brz-heading1tabletletterspacing: 0px;
+    --brz-heading1tabletlineheight: 1.2;
+    --brz-heading1tabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading1mobilefontsize: 30px;
+    --brz-heading1mobilefontweight: 700;
+    --brz-heading1mobileletterspacing: 0px;
+    --brz-heading1mobilelineheight: 1.3;
+    --brz-heading1mobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading1storyfontsize: 14.72%;
+    --brz-heading1bold: 700;
+    --brz-heading1italic: inherit;
+    --brz-heading1textdecoration: inherit;
+    --brz-heading1texttransform: inherit;
+    --brz-heading1tabletbold: 700;
+    --brz-heading1tabletitalic: inherit;
+    --brz-heading1tablettextdecoration: inherit;
+    --brz-heading1tablettexttransform: inherit;
+    --brz-heading1mobilebold: 700;
+    --brz-heading1mobileitalic: inherit;
+    --brz-heading1mobiletextdecoration: inherit;
+    --brz-heading1mobiletexttransform: inherit;
+
+    /* Heading 2 Variables */
+    --brz-heading2fontfamily: "Inter", sans-serif;
+    --brz-heading2fontsize: 44px;
+    --brz-heading2fontsizesuffix: px;
+    --brz-heading2fontweight: 700;
+    --brz-heading2letterspacing: 0px;
+    --brz-heading2lineheight: 1.4;
+    --brz-heading2fontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading2tabletfontsize: 30px;
+    --brz-heading2tabletfontweight: 700;
+    --brz-heading2tabletletterspacing: 0px;
+    --brz-heading2tabletlineheight: 1.3;
+    --brz-heading2tabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading2mobilefontsize: 28px;
+    --brz-heading2mobilefontweight: 700;
+    --brz-heading2mobileletterspacing: 0px;
+    --brz-heading2mobilelineheight: 1.3;
+    --brz-heading2mobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading2storyfontsize: 10.12%;
+    --brz-heading2bold: 700;
+    --brz-heading2italic: inherit;
+    --brz-heading2textdecoration: inherit;
+    --brz-heading2texttransform: inherit;
+    --brz-heading2tabletbold: 700;
+    --brz-heading2tabletitalic: inherit;
+    --brz-heading2tablettextdecoration: inherit;
+    --brz-heading2tablettexttransform: inherit;
+    --brz-heading2mobilebold: 700;
+    --brz-heading2mobileitalic: inherit;
+    --brz-heading2mobiletextdecoration: inherit;
+    --brz-heading2mobiletexttransform: inherit;
+
+    /* Heading 3 Variables */
+    --brz-heading3fontfamily: "Inter", sans-serif;
+    --brz-heading3fontsize: 32px;
+    --brz-heading3fontsizesuffix: px;
+    --brz-heading3fontweight: 500;
+    --brz-heading3letterspacing: 0px;
+    --brz-heading3lineheight: 1.4;
+    --brz-heading3fontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading3tabletfontsize: 27px;
+    --brz-heading3tabletfontweight: 500;
+    --brz-heading3tabletletterspacing: 0px;
+    --brz-heading3tabletlineheight: 1.3;
+    --brz-heading3tabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading3mobilefontsize: 22px;
+    --brz-heading3mobilefontweight: 500;
+    --brz-heading3mobileletterspacing: 0px;
+    --brz-heading3mobilelineheight: 1.3;
+    --brz-heading3mobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading3storyfontsize: 7.36%;
+    --brz-heading3bold: 500;
+    --brz-heading3italic: inherit;
+    --brz-heading3textdecoration: inherit;
+    --brz-heading3texttransform: inherit;
+    --brz-heading3tabletbold: 500;
+    --brz-heading3tabletitalic: inherit;
+    --brz-heading3tablettextdecoration: inherit;
+    --brz-heading3tablettexttransform: inherit;
+    --brz-heading3mobilebold: 500;
+    --brz-heading3mobileitalic: inherit;
+    --brz-heading3mobiletextdecoration: inherit;
+    --brz-heading3mobiletexttransform: inherit;
+
+    /* Heading 4 Variables */
+    --brz-heading4fontfamily: "Inter", sans-serif;
+    --brz-heading4fontsize: 22px;
+    --brz-heading4fontsizesuffix: px;
+    --brz-heading4fontweight: 700;
+    --brz-heading4letterspacing: 0px;
+    --brz-heading4lineheight: 1.5;
+    --brz-heading4fontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading4tabletfontsize: 21px;
+    --brz-heading4tabletfontweight: 700;
+    --brz-heading4tabletletterspacing: 0px;
+    --brz-heading4tabletlineheight: 1.4;
+    --brz-heading4tabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading4mobilefontsize: 20px;
+    --brz-heading4mobilefontweight: 700;
+    --brz-heading4mobileletterspacing: 0px;
+    --brz-heading4mobilelineheight: 1.4;
+    --brz-heading4mobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading4storyfontsize: 5.06%;
+    --brz-heading4bold: 700;
+    --brz-heading4italic: inherit;
+    --brz-heading4textdecoration: inherit;
+    --brz-heading4texttransform: inherit;
+    --brz-heading4tabletbold: 700;
+    --brz-heading4tabletitalic: inherit;
+    --brz-heading4tablettextdecoration: inherit;
+    --brz-heading4tablettexttransform: inherit;
+    --brz-heading4mobilebold: 700;
+    --brz-heading4mobileitalic: inherit;
+    --brz-heading4mobiletextdecoration: inherit;
+    --brz-heading4mobiletexttransform: inherit;
+
+    /* Heading 5 Variables */
+    --brz-heading5fontfamily: "Inter", sans-serif;
+    --brz-heading5fontsize: 18px;
+    --brz-heading5fontsizesuffix: px;
+    --brz-heading5fontweight: 500;
+    --brz-heading5letterspacing: 0px;
+    --brz-heading5lineheight: 1.6;
+    --brz-heading5fontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading5tabletfontsize: 17px;
+    --brz-heading5tabletfontweight: 500;
+    --brz-heading5tabletletterspacing: 0px;
+    --brz-heading5tabletlineheight: 1.5;
+    --brz-heading5tabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading5mobilefontsize: 16px;
+    --brz-heading5mobilefontweight: 500;
+    --brz-heading5mobileletterspacing: 0px;
+    --brz-heading5mobilelineheight: 1.5;
+    --brz-heading5mobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading5storyfontsize: 4.14%;
+    --brz-heading5bold: 500;
+    --brz-heading5italic: inherit;
+    --brz-heading5textdecoration: inherit;
+    --brz-heading5texttransform: inherit;
+    --brz-heading5tabletbold: 500;
+    --brz-heading5tabletitalic: inherit;
+    --brz-heading5tablettextdecoration: inherit;
+    --brz-heading5tablettexttransform: inherit;
+    --brz-heading5mobilebold: 500;
+    --brz-heading5mobileitalic: inherit;
+    --brz-heading5mobiletextdecoration: inherit;
+    --brz-heading5mobiletexttransform: inherit;
+
+    /* Heading 6 Variables */
+    --brz-heading6fontfamily: "Inter", sans-serif;
+    --brz-heading6fontsize: 16px;
+    --brz-heading6fontsizesuffix: px;
+    --brz-heading6fontweight: 400;
+    --brz-heading6letterspacing: 0px;
+    --brz-heading6lineheight: 1.7;
+    --brz-heading6fontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading6tabletfontsize: 16px;
+    --brz-heading6tabletfontweight: 400;
+    --brz-heading6tabletletterspacing: 0px;
+    --brz-heading6tabletlineheight: 1.5;
+    --brz-heading6tabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading6mobilefontsize: 15px;
+    --brz-heading6mobilefontweight: 400;
+    --brz-heading6mobileletterspacing: 0px;
+    --brz-heading6mobilelineheight: 1.4;
+    --brz-heading6mobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-heading6storyfontsize: 3.68%;
+    --brz-heading6bold: 400;
+    --brz-heading6italic: inherit;
+    --brz-heading6textdecoration: inherit;
+    --brz-heading6texttransform: inherit;
+    --brz-heading6tabletbold: 400;
+    --brz-heading6tabletitalic: inherit;
+    --brz-heading6tablettextdecoration: inherit;
+    --brz-heading6tablettexttransform: inherit;
+    --brz-heading6mobilebold: 400;
+    --brz-heading6mobileitalic: inherit;
+    --brz-heading6mobiletextdecoration: inherit;
+    --brz-heading6mobiletexttransform: inherit;
+
+    /* Button Variables */
+    --brz-buttonfontfamily: "Inter", sans-serif;
+    --brz-buttonfontsize: 16px;
+    --brz-buttonfontsizesuffix: px;
+    --brz-buttonfontweight: 600;
+    --brz-buttonletterspacing: 0px;
+    --brz-buttonlineheight: 1.5;
+    --brz-buttonfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-buttontabletfontsize: 16px;
+    --brz-buttontabletfontweight: 600;
+    --brz-buttontabletletterspacing: 0px;
+    --brz-buttontabletlineheight: 1.5;
+    --brz-buttontabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-buttonmobilefontsize: 16px;
+    --brz-buttonmobilefontweight: 600;
+    --brz-buttonmobileletterspacing: 0px;
+    --brz-buttonmobilelineheight: 1.5;
+    --brz-buttonmobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-buttonstoryfontsize: 3.68%;
+    --brz-buttonbold: 600;
+    --brz-buttonitalic: inherit;
+    --brz-buttontextdecoration: inherit;
+    --brz-buttontexttransform: inherit;
+    --brz-buttontabletbold: 600;
+    --brz-buttontabletitalic: inherit;
+    --brz-buttontablettextdecoration: inherit;
+    --brz-buttontablettexttransform: inherit;
+    --brz-buttonmobilebold: 600;
+    --brz-buttonmobileitalic: inherit;
+    --brz-buttonmobiletextdecoration: inherit;
+    --brz-buttonmobiletexttransform: inherit;
+
+    /* Other font variables (for special elements, etc.) */
+    --brz-rbug56wlcakrfontfamily: "Inter", sans-serif;
+    --brz-rbug56wlcakrfontsize: 18px;
+    --brz-rbug56wlcakrfontsizesuffix: px;
+    --brz-rbug56wlcakrfontweight: 400;
+    --brz-rbug56wlcakrletterspacing: 0px;
+    --brz-rbug56wlcakrlineheight: 1.7;
+    --brz-rbug56wlcakrfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-rbug56wlcakrtabletfontsize: 17px;
+    --brz-rbug56wlcakrtabletfontweight: 400;
+    --brz-rbug56wlcakrtabletletterspacing: 0px;
+    --brz-rbug56wlcakrtabletlineheight: 1.6;
+    --brz-rbug56wlcakrtabletfontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-rbug56wlcakrmobilefontsize: 16px;
+    --brz-rbug56wlcakrmobilefontweight: 400;
+    --brz-rbug56wlcakrmobileletterspacing: 0px;
+    --brz-rbug56wlcakrmobilelineheight: 1.5;
+    --brz-rbug56wlcakrmobilefontvariation: "wght" 400, "wdth" 100, "SOFT" 0;
+    --brz-rbug56wlcakrstoryfontsize: 4.14%;
+    --brz-rbug56wlcakrbold: 400;
+    --brz-rbug56wlcakritalic: inherit;
+    --brz-rbug56wlcakrtextdecoration: inherit;
+    --brz-rbug56wlcakrtexttransform: inherit;
+    --brz-rbug56wlcakrtabletbold: 400;
+    --brz-rbug56wlcakrtabletitalic: inherit;
+    --brz-rbug56wlcakrtablettextdecoration: inherit;
+    --brz-rbug56wlcakrtablettexttransform: inherit;
+    --brz-rbug56wlcakrmobilebold: 400;
+    --brz-rbug56wlcakrmobileitalic: inherit;
+    --brz-rbug56wlcakrmobiletextdecoration: inherit;
+    --brz-rbug56wlcakrmobiletexttransform: inherit;
+}
+
+/* ==========================================================================
+   Font-Family & Base Typography from the Project (Imported Fonts)
+   ========================================================================== */
+.brz .brz-tp__dc-block-st1 p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.7;
+}
+@media (max-width: 991px) {
+    .brz .brz-tp__dc-block-st1 p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+}
+@media (max-width: 767px) {
+    .brz .brz-tp__dc-block-st1 p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+.brz .brz-tp__dc-block-st1 h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 1.3;
+}
+@media (max-width: 991px) {
+    .brz .brz-tp__dc-block-st1 h1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+}
+@media (max-width: 767px) {
+    .brz .brz-tp__dc-block-st1 h1 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+}
+/* Similar rules exist for h2, h3, h4, h5, h6 */
+/* (Refer to the original inline style blocks for full definitions) */
+
+/* ==========================================================================
+   Code Block Styling
+   ========================================================================== */
+.code {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    overflow: auto;
+    white-space: pre;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================================================
+   Additional Component & Utility Classes
+   ========================================================================== */
+
+/* (Below are sample utility classes and layout helpers. The full CSS includes many more .brz- classes.)
+   For brevity, only a few representative examples are included.
+*/
+
+.brz-section {
+    padding: 75px 0;
+    position: relative;
+}
+.brz-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.brz-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.brz-columns {
+    padding: 0 15px;
+    flex: 1;
+}
+.brz-btn {
+    display: inline-block;
+    padding: 14px 42px;
+    border: 2px solid rgba(var(--brz-global-color3),1);
+    background-color: rgba(var(--brz-global-color3),1);
+    color: rgba(var(--brz-global-color8),1);
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.brz-btn:hover {
+    background-color: rgba(var(--brz-global-color3),0.8);
+}
+
+/* ==========================================================================
+   End of Consolidated CSS
+   ========================================================================== */

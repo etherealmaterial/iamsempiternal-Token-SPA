@@ -1,0 +1,119 @@
+/* Basic resets and fonts, optional */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section Container */
+.hero-section {
+    width: 100%;
+    padding: 80px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+/* Inner Container */
+.hero-container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Heading */
+.hero-heading {
+    font-size: 2.5rem;
+    color: #121110;
+    margin-bottom: 12px;
+    /* You can adjust line-height, font-weight, etc. */
+}
+
+/* Subheading */
+.hero-subheading {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 32px;
+}
+
+/* Countdown wrapper */
+.countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* space between items */
+    margin-bottom: 30px;
+}
+
+/* Each countdown item */
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* The numeric display */
+.countdown-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #55ce5e; /* a greenish color, can be changed */
+    line-height: 1.2;
+}
+
+/* The label under the number */
+.countdown-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #666666;
+    margin-top: 4px;
+}
+
+/* The main CTA button */
+.hero-cta {
+    background-color: #fb8f2c;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+    background-color: #d57625; /* slightly darker on hover */
+}
+
+/* Additional note under the button */
+.hero-note {
+    font-size: 0.9rem;
+    color: #444444;
+}
+
+/* --- Media Queries --- */
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 1.8rem;
+    }
+    .hero-subheading {
+        font-size: 0.95rem;
+        margin-bottom: 24px;
+    }
+    .countdown-wrapper {
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+    }
+    .countdown-number {
+        font-size: 1.6rem;
+    }
+    .countdown-label {
+        font-size: 0.65rem;
+    }
+    .hero-cta {
+        width: 100%;
+        max-width: 300px;
+    }
+}
