@@ -1,0 +1,22 @@
+/* src/styles/Contact.css */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact form input,
+.contact form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+}
+.contact form button {
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
